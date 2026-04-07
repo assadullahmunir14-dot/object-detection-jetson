@@ -2,6 +2,22 @@
 
 ## Overview
 Object detection system using YOLO model with future deployment on NVIDIA Jetson Nano.
+### System Block Diagram
+
+[Input Source]
+(Camera / Image / Video)
+        ↓
+[Preprocessing]
+(Resize, Normalize)
+        ↓
+[YOLOv8 Model]
+(Object Detection Inference)
+        ↓
+[Post-processing]
+(Bounding Boxes, Confidence Scores)
+        ↓
+[Output]
+(Display Detected Objects)
 ## Steps
 - Installed Python and required libraries
 - Installed ultralytics YOLO framework
