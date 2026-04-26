@@ -64,6 +64,16 @@ The workflow includes environment setup, model testing, performance observation,
 - Planned to convert ONNX model to TensorRT engine
 - Goal is to improve inference speed using GPU acceleration
 
+### Environment Setup
+
+- Installed ultralytics:
+  python3 -m pip install ultralytics
+
+- Installed OpenCV:
+  sudo apt install python3-opencv
+
+- Installed TensorRT and related libraries
+
 ---
 
 ## Software Framework and Model Used
